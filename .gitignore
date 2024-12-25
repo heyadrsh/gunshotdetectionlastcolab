@@ -1,0 +1,33 @@
+# Dataset files but keep folders
+dataset/**/*.wav
+dataset/**/*.mp3
+dataset/**/*.json
+dataset/processed/**/*.h5
+!dataset/.gitkeep
+!dataset/processed/.gitkeep
+!dataset/gunshots/.gitkeep
+!dataset/urbansound8k/.gitkeep
+
+# Model checkpoints
+checkpoints/**/*.keras
+!checkpoints/.gitkeep
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# Detected gunshots directory
+detected_gunshots/**/*.wav
+!detected_gunshots/.gitkeep
+
+# Logs
+*.log

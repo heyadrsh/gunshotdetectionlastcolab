@@ -1,0 +1,31 @@
+{
+    "gun_types": {
+        "Glock 17 9mm": {
+            "total_files": 669,
+            "multichannel_recordings": 401,
+            "mean_recordings": 66,
+            "single_recordings": 202
+        },
+        "S&W .38 Special": {
+            "total_files": 503,
+            "multichannel_recordings": 305,
+            "mean_recordings": 56,
+            "single_recordings": 142
+        },
+        "Remington 870": {
+            "total_files": 379,
+            "multichannel_recordings": 240,
+            "mean_recordings": 39,
+            "single_recordings": 100
+        },
+        "Ruger AR-556": {
+            "total_files": 597,
+            "multichannel_recordings": 355,
+            "mean_recordings": 66,
+            "single_recordings": 176
+        }
+    },
+    "total_samples": 2148,
+    "channel_info": {},
+    "sample_rate": 44100
+}
